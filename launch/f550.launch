@@ -1,0 +1,7 @@
+<launch>
+
+	<include file="$(find urg_node)/urg_lidar.launch"/>
+	<include file="$(find usb_cam)/usb_cam-test.launch"/>
+    <include file="$(find f550_launch)/f550_static_tf.launch"/>
+
+</launch>
