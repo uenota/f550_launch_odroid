@@ -3,5 +3,6 @@
 	<include file="$(find urg_node)/launch/urg_lidar.launch"/>
 	<include file="$(find f550_launch_odroid)/launch/usb_cam.launch"/>
 	<include file="$(find f550_launch_odroid)/launch/f550_static_tf.launch"/>
+    <include file="$(find f550_launch_odroid)/launch/mavros_odroid.launch"/>
 
 </launch>
