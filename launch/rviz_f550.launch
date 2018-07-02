@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="rviz" type="rviz" name="f550_viewer_rviz" args="-d $(find f550_launch_odroid)/rviz/f550.rviz" />
+
+</launch>
